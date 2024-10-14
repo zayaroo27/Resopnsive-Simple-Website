@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CodeHim" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <h1 class="logo">Kygo</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="offer.html">Offers</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
+  <body>
+    <main>
+
+      <div class="sec">
+        <form action="" class="search-bar">
+          <input type="search" name="search" pattern=".*\S.*" required>
+          <button class="search-btn" type="submit">
+            <span>Search</span>
+          </button>
+        </form>
+       
+        <div class="campheading"><div class="sort-options">
+          <label for="sort">Sort By:</label>
+          <select id="sort">
+            <option value="alphabet">Alphabetical</option>
+            <option value="price">Price (Low to High)</option>
+          </select>
+        </div></div></div>
+    <div class="products">
+      <div class="un">
+        <div class="app">
+          <div class="closewindow">
+            <span>x</span>
+          </div>
+          <h2>Cart Details</h2>
+          <i class="fa fa-shopping-basket fa-3x" aria-hidden="true"></i>
+          <p>You have choose the following items.</p>
+          <div class="tooltipshop"></div>
+          <div class="tooltipshop2"></div>
+          <div class="app-body">
+            <ul class="list"></ul>
+          </div>
+          <div class="openpopup">Check out</div>
+          <div class="openpopup2">Clear Cart</div>
+        </div>
+
+        <div id="tray">
+          <div class="count"></div>
+          <i class="fa fa-shopping-basket fa-2x" aria-hidden="true"></i>
+        </div>
+
+        <div class="h1"><h3>Products</h3></div>
+
+        <div id="market">
+          <div class="products">
+            <div class="card">
+              <div class="image">
+                <img src="tent1.png" alt="tent1" />
+              </div>
+              <div class="desc">Tent</div>
+              <div class="title">Cyan-Yelllow tent</div>
+              <div class="box">
+                <div class="price">79$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image"><img src="tent2.png" alt="tent" /></div>
+              <div class="desc">Tent</div>
+              <div class="title">Black tent</div>
+              <div class="box">
+                <div class="price">199$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image"><img src="tent3.jpeg" alt="tent" /></div>
+              <div class="desc">Tent</div>
+              <div class="title">Blue tent</div>
+              <div class="box">
+                <div class="price">99$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image"><img src="stove1.jpg" alt="stove" /></div>
+              <div class="desc">Stove</div>
+              <div class="title">Stove1</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image"><img src="stove2.jpeg" alt="stove" /></div>
+              <div class="desc">Stove</div>
+              <div class="title">Stove2</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image"><img src="stove3.jpg" alt="stove" /></div>
+              <div class="desc">Stove</div>
+              <div class="title">Folding stove</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image">
+                <img src="backpack1.jpg" alt="backpack " />
+              </div>
+              <div class="desc">Backpack</div>
+              <div class="title">Orange backpack</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image">
+                <img src="backpack2.png" alt="backpack " />
+              </div>
+              <div class="desc">Backpack</div>
+              <div class="title">Forest backpack</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image">
+                <img src="backpack3.jpg" alt="backpack " />
+              </div>
+              <div class="desc">Backpack</div>
+              <div class="title">Pink backpack</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image"><img src="lighter1.jpg" alt="lighter" /></div>
+              <div class="desc">Lighter</div>
+              <div class="title">Extendable lighter</div>
+              <div class="box">
+                <div class="price">69$</div>
+                <button class="btn addCart">Buy Now</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+      <div class="footer-content">
+          <h3>RCC</h3>
+          <p>Folow us on social medias for up to date news</p>
+          <ul class="socials">
+              <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy;2022 RCC. designed by <span>Zayar</span></p>
+      </div>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>

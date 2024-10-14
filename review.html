@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>RCC website</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<header>
+    <h1 class="logo">Kygo</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="review.html">Reviews</a></li>
+          <li><a href="offer.html">Offers</a></li>
+        </ul>
+      </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+    </label>
+  </header>
+<body>
+    
+    <section id="reviews">
+      
+        <div class="reviews-heading">
+            
+            <h2>Customer reviews</h2>
+        </div>
+        
+        <div class="reviews-box-container">
+           
+            <div class="reviews-box">
+               
+                <div class="box-top">
+                   
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="customer1.png" alt="Photo" >
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>Jenna Ortega</strong>
+                            <span>@Jenna0rte6a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            
+            <div class="reviews-box">
+                
+                <div class="box-top">
+                    
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="customer2.jpg" alt="photo">
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>rosè</strong>
+                            <span>@roses_are_rosie</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            
+            <div class="reviews-box">
+                
+                <div class="box-top">
+                   
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="CUSTOMER3.jpg"  alt="photo">
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>UNKOWN</strong>
+                            <span>@unknown</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+               
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            
+            <div class="reviews-box">
+                
+                <div class="box-top">
+                    
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="images/c-4.jpg" alt="photo">
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>Oliva</strong>
+                            <span>@Olivaadward</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Button to trigger review form -->
+<button id="write-review-btn">Write Review</button>
+
+<!-- Popup container for the review form -->
+<div id="popup-container-review">
+  <div id="review-form" class="popup-form">
+    <h2>Submit Your Review</h2>
+    <button id="close-review-form">&times;</button> <!-- Close Button -->
+    <form>
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required><br><br>
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
